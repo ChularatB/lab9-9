@@ -9,7 +9,7 @@
         ที่อยู่ : <?=$row["address"]?><br>
         เบอร์โทร: <?=$row["mobile"]?><br>
         email: <?=$row["email"]?><br>
-        <a href='Edit.php?username("<?=$row["username"]?>")'>แก้ไข</a>
+        <a href='db9-1.php?username("<?=$row["username"]?>")'>แก้ไข</a>
         <hr>
     <?php endwhile ?>
 </body>
